@@ -1,0 +1,100 @@
+.box {
+    transition: 0.5s;
+    padding: 0 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    height: 70vh;
+    width: 90%;
+    color: #0f3460;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+
+.top {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    font-family: 'Barlow',
+        sans-serif;
+}
+
+
+
+.desc h1 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.pdesc {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    letter-spacing: 1.6px;
+}
+
+
+.cardOption {
+    line-height: 1.6;
+    margin-left: 25px;
+    letter-spacing: 1.6px;
+}
+
+.check {
+    color: #70e000;
+    margin-right: 15px;
+}
+
+
+.prix {
+    text-align: right;
+    padding: 30px;
+    font-size: 2rem;
+    color: #0f3460;
+}
+
+
+.right {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.right img {
+    width: 70%;
+    height: 50%;
+}
+
+.desc {
+    height: 100%;
+    margin-top: 20%;
+}
+
+
+.btn-primary {
+    background: #e94560;
+    padding: 13px 40px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+}

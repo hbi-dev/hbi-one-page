@@ -1,0 +1,11 @@
+.services {
+    height: 100vh !important;
+    gap: 30px;
+    background-color: #fff;
+}
+
+.chevron {
+    font-size: 3rem;
+    margin-right: 15px;
+    color: tomato !important;
+}
